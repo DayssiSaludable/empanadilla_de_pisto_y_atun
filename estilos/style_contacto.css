@@ -1,0 +1,71 @@
+main {
+    width:100%;
+    background: radial-gradient(circle , #EE82EE, white);
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    font-size: 0.5rem;
+    text-align:start;
+    color:#f107f1;
+}
+
+.contacto-cliente {
+    margin: 10px;
+}
+
+.informacion {
+    margin: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+p {
+    padding: 10px;
+}
+
+/*Estilo al formulario*/
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #e59de5;
+    color:white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    padding: 20px;
+}
+
+input,
+textarea {
+    border: 1px solid #f107f1;
+    background-color: #e59de5;
+}
+
+button {
+    border: 1px solid #f107f1;
+    background-color: #f107f1;
+    color: white;
+}
+        
+
+@media screen and (max-width: 600px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
